@@ -1,15 +1,6 @@
-// Standalone file does not import from anything
+// Dependent file imports from other files
 
-export class App {
-	private version: number;
-	private signature: string;
+import {App} from "./dep";
 
-	constructor() {
-		this.version = 1;
-		this.signature = "ABCD";
-	}
-
-	Run(): void {
-		console.log("app is running...");
-	}
-}
+let app = new App();
+app.Run();

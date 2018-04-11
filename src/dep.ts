@@ -1,4 +1,15 @@
-import {App} from "./index";
+// Standlone file does not import from anything
 
-let app = new App();
-app.Run();
+export class App {
+	private version: number;
+	private signature: string;
+
+	constructor() {
+		this.version = 1;
+		this.signature = "ABCD";
+	}
+
+	Run(): void {
+		console.log("app is running...");
+	}
+}
