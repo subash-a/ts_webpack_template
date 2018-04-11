@@ -4,7 +4,7 @@
 		"target": "ES6",
 		"rootDir": ".",
 		"outDir": "dist",
-		"noImplictAny": true,
+		"noImplicitAny": true,
 		"sourceMap": true
 	},
 	"include": ["src/**/*"],
