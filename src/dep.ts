@@ -1,4 +1,6 @@
-// Standlone file does not import from anything
+import * as ReactDOM from "react-dom";
+import * as React from "react";
+import {AppComponent} from "./app";
 
 export class App {
 	private version: number;
@@ -10,6 +12,7 @@ export class App {
 	}
 
 	Run(): void {
-		console.log("app is running...");
+		let container = document.getElementById("app-container");
+		ReactDOM.render(React.createElement(AppComponent, {}), container);
 	}
 }

@@ -5,7 +5,8 @@
 		"rootDir": ".",
 		"outDir": "dist",
 		"noImplicitAny": true,
-		"sourceMap": true
+		"sourceMap": true,
+		"jsx": "React"
 	},
 	"include": ["src/**/*"],
 	"exclude": ["node_modules"]
