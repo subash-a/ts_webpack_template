@@ -1,0 +1,9 @@
+$primary-font: Arial;
+$primary-background: #fefefe;
+$base-font-size: 1.2em;
+
+body {
+	font-family: $primary-font;
+	font-size: $base-font-size;
+	background: $primary-background;
+}

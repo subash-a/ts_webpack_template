@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "webpack --config webpack.config.js",
-	  "watch": "webpack --watch",
-      "serve": "http-server -a localhost -p 7070"
+    "watch": "webpack --watch",
+    "serve": "http-server -a localhost -p 7070"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   "keywords": [
     "Typescript",
     "Javascript",
-	  "React",
-      "Template",
+    "React",
+    "Template",
     "Project"
   ],
   "author": "s7subash@gmail.com",
@@ -27,9 +27,13 @@
     "@types/react": "16.3",
     "@types/react-dom": "16.0",
     "copy-webpack-plugin": "4.5",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "node-sass": "4.8.3",
+    "sass-loader": "6.0.7",
     "ts-loader": "4.2",
     "typescript": "2.9.0-dev.20180411",
-    "webpack": "4.5",
+    "webpack": "4.5.0",
     "webpack-cli": "2.0"
   },
   "dependencies": {
